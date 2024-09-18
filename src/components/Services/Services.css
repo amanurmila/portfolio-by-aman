@@ -73,8 +73,8 @@
 @media(max-width: 576px){
     .services{
         align-items: center;
-        gap: 45px;
-        margin: 15px 45px;
+        gap: 50px;
+        margin: 30px 50px;
     }
     .services-title h1{
         padding: 0;
