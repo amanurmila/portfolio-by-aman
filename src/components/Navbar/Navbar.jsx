@@ -23,9 +23,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <img src={logo} alt="" />
-      <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
+      <img style={{width: "30px"}} src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className="nav-menu">
-        <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
+        <img style={{width: "30px"}} src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
         <li><AnchorLink className='anchor-link' href='#home'><p onClick={() => setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img style={{width:'30%', height:'25px'}} src={underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink>{menu==="about"?<img style={{width:'30%', height:'25px'}} src={underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={() => setMenu("services")}>Services</p></AnchorLink>{menu==="services"?<img style={{width:'30%', height:'25px'}} src={underline} alt=''/>:<></>}</li>
