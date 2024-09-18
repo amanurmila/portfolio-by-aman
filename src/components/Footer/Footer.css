@@ -79,7 +79,10 @@
         display: flex;
         flex-direction: column;
     }
-    .footer-email-input input input{
-        width: 96%;
+    .footer-email-input input{
+        width: 90%;
+    }
+    .footer-subscribe{
+        padding: 15px 30px;
     }
 }
