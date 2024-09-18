@@ -65,11 +65,11 @@
 
 @media(max-width: 768px){
     .footer{
-        margin: 40px 55px;
+        margin: 30px 45px;
     }
     .footer-top{
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
     }
     .footer-bottom{
         display: flex;
@@ -78,5 +78,8 @@
     .footer-top-right{
         display: flex;
         flex-direction: column;
+    }
+    .footer-email-input input input{
+        width: 100%;
     }
 }

@@ -70,37 +70,39 @@
 
 
 
-@media(max-width: 768px){
+@media(max-width: 576px){
     .services{
-        align-items: start;
+        align-items: center;
         gap: 55px;
         margin: 17px 58px;
     }
     .services-title h1{
         padding: 0;
-        font-size: 40px;
+        font-size: 30px;
     }
     .services-title img{
-        width: 130px;
+        width: 105px;
         margin-right: -20px;
     }
     .services-format{
-        gap: 18px;
-        padding: 28px;
+        gap: 10px;
+        padding: 15px;
     }
     .services-format h2{
-        font-size: 23px;
+        font-size: 20px;
     }
     .services-format p{
         font-size: 15px;
-        line-height: 28px;
-        max-width: 270px;
+        line-height: 24px;
+        max-width: 250px;
     }
     .services-read-more img{
         width: 18px;
     }
     .services-container{
         grid-template-columns: 1fr 1fr;
-        gap: 25px;
+        gap: 10px;
+        margin-left: auto;
+        justify-content: center;
     }
 }
