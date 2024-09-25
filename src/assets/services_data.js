@@ -1,13 +1,13 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web Designing",
-        s_desc:"I am a Web Designer. I can design beautiful websites..."
+        s_name:"Frontend Developer",
+        s_desc:"I am a Frontend Web Developer. I can design beautiful websites..."
     },
     {
         s_no:"02",
-        s_name:"Frontend Developer",
-        s_desc:"I am a Frontend Web Developer. I can make beautiful Websites..."
+        s_name:"Web Designing",
+        s_desc:"I am a Web Designer. I can make beautiful Websites..."
     },
     {
         s_no:"03",
